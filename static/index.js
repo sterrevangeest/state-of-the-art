@@ -12,7 +12,7 @@ form.addEventListener("submit", function(e) {
  console.log(e);
  e.preventDefault();
  if (input.value) {
-  socket.emit("chat message", input.value);
+  socket.emit("hey message", input.value);
   input.value = "";
  }
 });

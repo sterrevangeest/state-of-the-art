@@ -52,6 +52,10 @@ function startsWith(supermarket, user, status) {
 let status;
 
 io.on("connection", socket => {
+ setTimeout(() => {
+  io.emit("chat message", "Hi, welcome!");
+ }, 1000);
+
  socket.on("chat message", userLocation => {
   supermarkets.map(supermarket => {
    let supermarketLocation = userLocation.lat - 1;
