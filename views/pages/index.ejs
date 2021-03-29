@@ -1,0 +1,23 @@
+<!-- views/pages/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<% include ../partials/head %>
+</head>
+
+<body class="text-center">
+	<header>
+		Recording your consumption
+	</header>
+	<ul id="messages">
+		<li>Hi, welcome!</li>
+	</ul>
+	<form id="form" action="">
+		<input id="input" autocomplete="off" /><button>Send</button>
+	</form>
+</body>
+<script src="/socket.io/socket.io.js"></script>
+<script src="index.js" type="module"></script>
+
+</html>

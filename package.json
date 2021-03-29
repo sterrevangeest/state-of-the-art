@@ -1,0 +1,40 @@
+{
+  "name": "real-time-web-1819",
+  "version": "1.0.0",
+  "description": "During this course you will learn how to build a **meaningful** real-time application. You will learn techniques to setup an open connection between the client and the server. This will enable you to send data in real-time both ways, at the same time.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterrevangeest/real-time-web-1819.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterrevangeest/real-time-web-1819/issues"
+  },
+  "homepage": "https://github.com/sterrevangeest/real-time-web-1819#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "debug": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "ejs": "^2.6.1",
+    "emoji-replace": "^1.0.1",
+    "express": "^4.16.4",
+    "express-session": "^1.17.0",
+    "express-socket.io-session": "^1.3.5",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "passport": "^0.4.1",
+    "passport-openid": "^0.4.0",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
