@@ -21,7 +21,7 @@ socket.on("chat message", function(msg) {
  var item = document.createElement("li");
  item.textContent = msg;
  messages.appendChild(item);
- window.scrollTo(0, document.body.scrollHeight);
+ //  window.scrollTo(0, document.body.scrollHeight);
 });
 
 socket.on("detected store", function(msg) {
@@ -29,7 +29,7 @@ socket.on("detected store", function(msg) {
  var item = document.createElement("p");
  item.textContent = msg;
  messages.appendChild(item);
- window.scrollTo(0, document.body.scrollHeight);
+ //  window.scrollTo(0, document.body.scrollHeight);
 });
 
 socket.on("upload file", function(msg) {
@@ -40,7 +40,7 @@ socket.on("upload file", function(msg) {
  item.textContent = "Upload or take a picture";
 
  messages.appendChild(item);
- window.scrollTo(0, document.body.scrollHeight);
+ //  window.scrollTo(0, document.body.scrollHeight);
 });
 
 var id, target, options;
